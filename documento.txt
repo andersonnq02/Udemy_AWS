@@ -1,0 +1,21 @@
+Foi adicionar o maven na variável de ambiente para encontrar os serviços no CDK
+https://stackoverflow.com/questions/21028872/mvn-command-not-found-in-osx-mavrerick
+
+Atualizar o node:
+sudo apt node
+
+
+cdk list --> lista todos os serviços
+
+cdk build --> gera os serviços na aws
+
+cdk diff --> compara a alteração o que tem no projeto e o que tem na aws
+
+cdk deploy  Vpc Cluster --> subir para a aws. passo os serviços que quero subir. Nesse caso Vpc e Cluster
+
+================================================================
+
+Ver depois como isntalar o CDK e adicionar uma conta/região associado. As credenciais ficam no arquivo .aws, na raíz /anderson
+
+Mais sobre o fargate --> https://aws.amazon.com/pt/fargate/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc&fargate-blogs.sort-by=item.additionalFields.createdDate&fargate-blogs.sort-order=desc
+interessante para aplicações críticas.
